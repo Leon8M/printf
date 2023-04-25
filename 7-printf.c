@@ -7,7 +7,7 @@
 /**
  * print_interger - Prints an integer using recursion.
  * @n: The integer to print.
- * @sign: A flag indicating if the number is negative.
+ * @sign: A flag indicating if the number is negative
  *
  * Return: The number of digits printed.
  */
