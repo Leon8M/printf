@@ -5,13 +5,13 @@
 #include <unistd.h>
 
 /**
- * print_int - Prints an integer using recursion.
+ * print_interger - Prints an integer using recursion.
  * @n: The integer to print.
  * @sign: A flag indicating if the number is negative.
  *
  * Return: The number of digits printed.
  */
-int print_int(int n, int sign)
+int print_interger(int n, int sign)
 {
 int digits = 0;
 
@@ -22,7 +22,7 @@ sign = 1;
 }
 
 if (n / 10)
-digits += print_int(n / 10, sign);
+digits += print_interger(n / 10, sign);
 
 digits += write(STDOUT_FILENO, &"0123456789"[n % 10], 1);
 
@@ -72,7 +72,7 @@ i++;
 if (format[i] == 'd' || format[i] == 'i')
 {
 int n = va_arg(args, int);
-printed += print_int(n, (n < 0 || sign == 1) ? 1 : 0);
+printed += print_interger(n, (n < 0 || sign == 1) ? 1 : 0);
 }
 else if (format[i] == 's')
 {

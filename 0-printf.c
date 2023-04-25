@@ -5,12 +5,12 @@
 #include <string.h>
 
 /**
- * print_binary - prints an unsigned int in binary
+ * print_bin - prints an unsigned int in binary
  * @n: the unsigned int to print
  *
  * Return: the number of characters printed
  */
-int print_binary(unsigned int n)
+int print_bin(unsigned int n)
 {
 unsigned int mask = 1 << 31;
 int count = 0;
@@ -67,7 +67,7 @@ count += write(1, "%", 1);
 else if (format[i] == 'b')
 {
 unsigned int num = va_arg(args, unsigned int);
-count += print_binary(num);
+count += print_bin(num);
 }
 else
 {
