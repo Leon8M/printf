@@ -117,13 +117,12 @@ long int convert_size_unsgnd(unsigned long int num, int size);
 
 =======
 
-#define BUFFER_SIZE 1024
-
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdlib.h>
 int _putchar(char c);
 int _printf(const char *format, ...);
+<<<<<<< HEAD
 <<<<<<< HEAD
 int _printf_five(const char *format, ...);
 int _printf_seven(const char *format, ...);
@@ -132,4 +131,6 @@ int _printf_thirteenth(const char *format, ...);
 =======
 >>>>>>> ec9c387e6630aa08a6aa5c56eaa4d1dbda61adcf
 >>>>>>> dcfbd84fdc53899930207c86724ed6942b618e06
+=======
+>>>>>>> parent of 910e2e8... 2
 #endif /* MAIN_H */
