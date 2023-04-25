@@ -6,7 +6,7 @@
 
 /**
  * print_bin - prints an unsigned int in binary
- * @n: the unsigned int to print
+ * @n: the unsigned int to print.
  *
  * Return: the number of characters printed
  */
