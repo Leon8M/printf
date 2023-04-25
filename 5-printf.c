@@ -8,7 +8,7 @@
  * _printf - prints output according to a format
  * @format: character string containing format specifiers
  *
- * Return: number of characters printed
+ * Return: number of characters printed.
  */
 int print_hex(char c, int len);
 int print_S(char *s);
