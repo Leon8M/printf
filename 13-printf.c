@@ -5,7 +5,7 @@
 
 /**
  * print_rev - Prints a string in reverse
- * @s: Pointer to string to print in reverse
+ * @s: Pointer to string to print in reverse.
  *
  * Return: The length of the printed string
  */
